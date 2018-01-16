@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="ami87/android_device_zuk_z2_plus" path="device/zuk/z2_plus" remote="github" revision="8x-caf" />
+<project name="ami87/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github" revision="8x-caf" />
+<project name="ami87/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github" revision="8x-caf" />
+<project name="ami87/android_vendor_zuk" path="vendor/zuk" remote="github" revision="lineage-15.1" />
+<project name="ami87/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="lineage-15.1" />
+
+<project name="ami87/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-15.1-caf-8996" />
+<project name="ami87/hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github" revision="8.1-caf-8996" />
+<project name="ami87/hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github" revision="8.1-caf-8996" />
+
+<project name="AOSP-JF-MM/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="aosp-8.0-test" />
+
+<remove-project name="platform_device_aosp_sepolicy"/>
+<project name="ami87/android_device_lineage_sepolicy" path="device/aosp/sepolicy" remote="github" revision="8.1.x" />
+
+<remove-project name="platform_packages_apps_Extensions" />
+<remove-project name="platform_packages_apps_DUI" />
+
+<remove-project name="platform_frameworks_base" />
+<remove-project name="platform_frameworks_av" />
+<remove-project name="platform_packages_apps_Settings" />
+
+<project name="ami87/platform_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="8.1.x" />
+<project name="ami87/platform_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="8.1.x" />
+
+<project name="ami87/platform_frameworks_base" path="frameworks/base" remote="github" revision="8.1.x" />
+<project name="ami87/platform_frameworks_av" path="frameworks/av" remote="github" revision="8.1.x" />
+<project name="ami87/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="8.1.x" />
+
+</manifest>
