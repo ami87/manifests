@@ -7,13 +7,16 @@
 <project name="ami87/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="lineage-15.1" />
 
 <project name="ami87/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="staging/lineage-15.1-caf-8996" />
-<project name="ami87/hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github" revision="8.1-caf-8996" />
-<project name="ami87/hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github" revision="8.1-caf-8996" />
+<project name="ami87/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github" revision="staging/lineage-15.1-caf-8996" />
+<project name="ami87/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github" revision="staging/lineage-15.1-caf-8996" />
 
-<project name="AOSP-JF-MM/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="aosp-8.0-test" />
+<project name="AOSP-JF-MM/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="aosp-8.1" />
 
-<remove-project name="platform_device_aosp_sepolicy"/>
-<project name="ami87/android_device_lineage_sepolicy" path="device/aosp/sepolicy" remote="github" revision="8.1.x" />
+<remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
+<project name="davidevinavil/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="aosp-7.1.2" />
+
+<remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" />
+<project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.x" />
 
 <remove-project name="platform_packages_apps_Extensions" />
 <remove-project name="platform_packages_apps_DUI" />
