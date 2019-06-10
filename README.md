@@ -1,2 +1,2 @@
 # manifests
-Zuk Z2 Pro local manifest
+Pixel 3 (blueline) local manifest
